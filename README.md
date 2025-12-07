@@ -1,46 +1,21 @@
-# Capstone Project: Fraud Detection & Credit Risk Analysis
+# Credit Card Fraud Detection
 
-A comprehensive capstone project combining data science and web development to build an intelligent fraud detection system and credit risk analysis platform.
+A capstone project combining data science and web development to build a fraud detection system with interactive dashboard and credit risk analysis.
 
-## 📋 Project Overview
+---
 
-This project consists of two main components:
+## 📦 What's Inside
 
-### 1. **Capstone Notebook** 
-Data science and machine learning analysis for fraud detection and credit risk prediction using the Home Credit Default Risk dataset from Kaggle.
+**Two main components:**
 
-**Key Features:**
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Multiple ML models (XGBoost, CatBoost, LightGBM, Neural Networks)
-- Model evaluation and comparison
-- Fraud pattern identification
-
-**Technologies:** Python, Jupyter, Pandas, Scikit-learn, TensorFlow, XGBoost, CatBoost
-
-### 2. **Fraud Detection Website**
-A modern web application providing an interactive dashboard for fraud detection and credit scoring analysis.
-
-**Key Features:**
-- Real-time fraud detection scoring
-- Credit risk assessment module
-- Interactive dashboards and visualizations
-- Kaggle dataset explorer
-- User profile management
-- Admin panel
-
-**Technologies:** Next.js, React, TypeScript, Tailwind CSS, Recharts, Radix UI
+1. **Capstone Notebook** - ML analysis and fraud detection models
+2. **Fraud Detection Website** - Interactive web dashboard
 
 ---
 
 ## 🚀 Quick Start
 
-### Prerequisites
-- Git
-- Python 3.8+ (for Capstone Notebook)
-- Node.js 18+ (for Fraud Detection Website)
-
-### For Capstone Notebook
+### Notebook
 ```bash
 cd capstone-notebook
 conda env create -f environment.yml
@@ -48,165 +23,89 @@ conda activate capstone-fraud-detection
 jupyter lab
 ```
 
-### For Fraud Detection Website
+### Website
 ```bash
 cd fraud-detection-website
 npm install
 npm run dev
-# Visit http://localhost:3000
+# Open http://localhost:3000
 ```
 
-For detailed setup instructions, see [SETUP.md](./SETUP.md)
+**For detailed setup:** See [SETUP.md](./SETUP.md)
+
+---
+
+## 🏗️ Tech Stack
+
+| Component | Technologies |
+|-----------|--------------|
+| **Notebook** | Python, Jupyter, Pandas, Scikit-learn, XGBoost, TensorFlow |
+| **Website** | Next.js, React, TypeScript, Tailwind CSS, Recharts |
 
 ---
 
 ## 📂 Project Structure
 
 ```
-Capstone-Project/
-├── capstone-notebook/              # Data analysis & ML development
+├── capstone-notebook/
 │   ├── fraudDetection.ipynb
 │   ├── requirements.txt
 │   ├── environment.yml
-│   ├── home-credit-default-risk/   # Kaggle dataset
-│   ├── models_stack_v2/            # Trained models
-│   └── Graphs/                     # Visualizations
+│   └── home-credit-default-risk/  # Kaggle dataset
 │
-├── fraud-detection-website/        # Next.js web application
-│   ├── app/                        # App router
-│   ├── components/                 # React components
-│   ├── lib/                        # Utilities
+├── fraud-detection-website/
+│   ├── app/
+│   ├── components/
 │   ├── package.json
 │   └── tsconfig.json
 │
-├── .github/
-│   └── SECURITY.md                 # Security guidelines
-├── SETUP.md                        # Installation guide
-├── README.md                       # This file
-└── .gitignore
+├── SETUP.md                 # Installation guide
+├── .github/SECURITY.md      # Security policy
+└── README.md
 ```
+
+---
+
+## ✨ Features
+
+- 📊 Real-time fraud detection scoring
+- 💳 Credit risk assessment
+- 📈 Interactive dashboards & visualizations
+- 🤖 Multiple ML models (XGBoost, CatBoost, Neural Networks)
+- 🔍 Kaggle dataset explorer
+- ⚙️ Admin panel
+
+---
+
+## 🚀 Deploy
+
+**Website:** Use **Vercel** (recommended for Next.js)
+- Free tier available
+- One-click GitHub integration
+- Full API support
+
+> GitHub Pages won't work (app has backend API routes)
 
 ---
 
 ## 🔐 Security
 
-- No secrets or API keys are committed to the repository
-- See [.github/SECURITY.md](.github/SECURITY.md) for security policies
-- Never commit `.env.local` or sensitive configuration files
+- No secrets committed to repository
+- See [.github/SECURITY.md](.github/SECURITY.md)
 
 ---
 
-## 📊 Key Datasets
+## 📖 Documentation
 
-The project uses the [Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk) dataset from Kaggle, which includes:
-- Application data (train/test)
-- Bureau data
-- Credit card balance data
-- Installment payment data
-- POS cash balance data
-- Previous application data
+- [SETUP.md](./SETUP.md) - Complete installation guide
+- [.github/SECURITY.md](.github/SECURITY.md) - Security guidelines
 
 ---
 
-## 🛠️ Tech Stack
+## 📊 Dataset
 
-### Backend & Data Science
-- Python 3.8+
-- Jupyter Notebook
-- Pandas, NumPy, SciPy
-- Scikit-learn, XGBoost, CatBoost, LightGBM
-- TensorFlow/Keras
-- Optuna (Hyperparameter tuning)
-
-### Frontend & Web
-- Next.js 15
-- React 18
-- TypeScript
-- Tailwind CSS
-- Radix UI (Component Library)
-- Recharts (Data Visualization)
-
-### Development Tools
-- Git
-- Node.js & npm/pnpm
-- Conda/venv (Python environments)
+Uses [Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk) from Kaggle
 
 ---
 
-## 📚 Features
-
-### Capstone Notebook
-- [ ] Data exploration and visualization
-- [ ] Feature engineering and selection
-- [ ] Model training and evaluation
-- [ ] Hyperparameter optimization
-- [ ] Fraud pattern analysis
-- [ ] Model stacking and ensemble
-
-### Fraud Detection Website
-- [ ] Dashboard overview
-- [ ] Real-time fraud scoring
-- [ ] Credit risk assessment
-- [ ] Forecasting module
-- [ ] Insights and analytics
-- [ ] Data upload and analysis
-- [ ] User settings and preferences
-- [ ] Admin panel
-
----
-
-## 🚀 Deployment
-
-### Fraud Detection Website
-The website can be deployed to:
-- **Vercel** (Recommended) - Free tier available
-- **Netlify** - With serverless functions
-- **AWS Amplify** - Full Next.js support
-- **Railway** - Docker container support
-
-> Note: GitHub Pages does NOT support this application due to its API routes and server-side requirements.
-
----
-
-## 🤝 Contributing
-
-1. Review [.github/SECURITY.md](.github/SECURITY.md) for security guidelines
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit changes: `git commit -m "Add your feature"`
-4. Push to branch: `git push origin feature/your-feature`
-5. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is part of a capstone curriculum.
-
----
-
-## 📞 Support
-
-For issues or questions:
-1. Check existing GitHub Issues
-2. Review [SETUP.md](./SETUP.md) for common troubleshooting
-3. Create a new Issue with detailed information
-
----
-
-## 📈 Project Status
-
-- **Status:** Active Development
-- **Last Updated:** December 2025
-- **Version:** 1.0.0
-
----
-
-## 🙏 Acknowledgments
-
-- Kaggle for the Home Credit Default Risk dataset
-- Next.js and React communities
-- Open-source data science libraries
-
----
-
-**Happy Coding! 🎉**
+**Last Updated:** December 2025 | Version 1.0.0
