@@ -1,0 +1,54 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Dependencies
+node_modules/
+/.pnpm-debug.log
+
+# Build outputs
+.next/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache
+.npm
+
+# Optional PNPM cache
+.pnpm-lock.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+env/
+
+# Data files (optional - adjust as needed)
+*.csv
+*.json
+*.xlsx
+
+# Model files
+*.h5
+*.pkl
+catboost_info/

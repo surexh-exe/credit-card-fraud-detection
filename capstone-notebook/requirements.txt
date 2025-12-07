@@ -1,0 +1,39 @@
+# Capstone Notebook - Data Science & ML Dependencies
+# Install with: pip install -r requirements.txt
+
+# Jupyter & Notebooks
+jupyter==1.0.0
+jupyterlab==4.0.4
+notebook==7.0.0
+ipython==8.14.0
+
+# Data Processing & Analysis
+pandas==2.0.3
+numpy==1.24.3
+scipy==1.11.1
+
+# Machine Learning
+scikit-learn==1.3.0
+xgboost==2.0.0
+catboost==1.2.1
+lightgbm==4.0.0
+tensorflow==2.13.0
+keras==2.13.0
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.16.1
+
+# Feature Engineering
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Model Evaluation
+imbalanced-learn==0.11.0
+optuna==3.13.0
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+tqdm==4.65.0

@@ -1,0 +1,45 @@
+name: capstone-fraud-detection
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core Python
+  - python=3.10
+  - pip
+
+  # Jupyter
+  - jupyter
+  - jupyterlab
+  - notebook
+  - ipython
+
+  # Data Processing
+  - pandas
+  - numpy
+  - scipy
+
+  # Machine Learning
+  - scikit-learn
+  - xgboost
+  - catboost
+  - lightgbm
+  - tensorflow
+  - keras
+
+  # Visualization
+  - matplotlib
+  - seaborn
+  - plotly
+
+  # Additional tools
+  - python-dateutil
+  - pytz
+  - tqdm
+  - requests
+
+  # Pip dependencies
+  - pip
+  - pip:
+    - imbalanced-learn
+    - optuna
+    - python-dotenv
