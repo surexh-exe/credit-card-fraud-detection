@@ -155,19 +155,6 @@ The project uses the [Home Credit Default Risk](https://www.kaggle.com/c/home-cr
 
 ---
 
-## 🚀 Deployment
-
-### Fraud Detection Website
-The website can be deployed to:
-- **Vercel** (Recommended) - Free tier available
-- **Netlify** - With serverless functions
-- **AWS Amplify** - Full Next.js support
-- **Railway** - Docker container support
-
-> Note: GitHub Pages does NOT support this application due to its API routes and server-side requirements.
-
----
-
 ## 🤝 Contributing
 
 1. Review [.github/SECURITY.md](.github/SECURITY.md) for security guidelines
