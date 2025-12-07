@@ -195,33 +195,6 @@ npm run lint                  # Run ESLint
 
 ---
 
-## 🚀 Deployment
-
-### Website Deployment
-
-**Recommended: Vercel** (Free tier available)
-```bash
-# Sign up at vercel.com with your GitHub account
-# Import this repository
-# Vercel auto-detects Next.js and deploys automatically
-```
-
-**Other options:**
-- AWS Amplify
-- Netlify
-- Railway
-- Docker + your server
-
-### Notebook
-
-Can be deployed as:
-- Kaggle Notebook
-- Google Colab
-- GitHub Pages (with nbconvert)
-- Binder (interactive online)
-
----
-
 ## 📖 Detailed Guide
 
 See [SETUP.md](./SETUP.md) for:
@@ -229,14 +202,6 @@ See [SETUP.md](./SETUP.md) for:
 - Troubleshooting common issues
 - Advanced configurations
 - Dataset setup details
-
----
-
-## 📄 License
-
-MIT License - Feel free to use this project for learning, research, or production.
-
-See LICENSE file for details.
 
 ---
 
@@ -265,14 +230,6 @@ See LICENSE file for details.
 - Review [SETUP.md](./SETUP.md) for common problems
 - Check the notebook for implementation details
 - Open an issue on GitHub for bugs
-
----
-
-## 🙌 Credits
-
-- **Dataset**: Kaggle Home Credit Default Risk
-- **Libraries**: Python, React, Next.js communities
-- **Inspiration**: Real-world fraud detection systems
 
 ---
 
